@@ -62,7 +62,7 @@ Esse elemento representa o rodapé do conteúdo ou de parte dele, pois ele é ac
 
 **| < h1 > < h6 >|**
 
-Eles não foram criados na versão 5 do HTML e nem são específicos para semântica, mas servem para esse propósito. São utilizados para marcar a importância dos títulos, sendo <h1> o mais importante e  < h6 >  o menos. Uma dica: use apenas um  < h1 >  por página, pois ele representa o objetivo da sua página.
+Eles não foram criados na versão 5 do HTML e nem são específicos para semântica, mas servem para esse propósito. São utilizados para marcar a importância dos títulos, sendo  < h1 >  o mais importante e  < h6 >  o menos. Uma dica: use apenas um  < h1 >  por página, pois ele representa o objetivo da sua página.
 
 **|...:::: Prática ::::...|**
 Dando continuidade ao nosso site iremos montar sua estrutura. Pensei em adicionarmos um cabeçalho com nosso nome, uma lista de posts (como um blog) e um rodapé para nossos contatos.
@@ -92,14 +92,14 @@ O href representa o hyperlink para onde sua âncora aponta, pode ser uma página
 
 O target neste momento vai servir para nos ajudar a abrir nossos links em outra aba do navegador usando o valor _blank.
 
-** Prática **
+**| Prática |**
 Vamos adicionar um texto fictício a nossa postagem: logo após o fechamento do < /header > vamos adicionar um elemento p e inserir um texto que vamos retirar do site lipsum.com
 
 E em alguma parte deste texto vamos adicionar um hiperlink para outra página e um para nosso e-mail.
 
 Criarei um hyperlink para meu perfil no LinkedIn: adicione o hyperlink no atributo href e o valor _blank no atributo target, assim o link será aberto em outra aba. E em algum outro lugar do texto adicionarei meu e-mail e um link para ele, desta forma: < a href="mailto:lucas@vilaboim.com" target="_blank" >lucas@vilaboim.com < /a >
 
-** Imagens **
+**| Imagens |**
 A web também é feita de imagens e para representá-las temos o elemento < img >, ele é um daqueles elementos sem tag de fechamento.
 
 O elemento img é bem simples, contendo apenas 2 atributos próprios, o src e o alt.
@@ -108,7 +108,7 @@ O src é obrigatório e guarda o caminho para a imagem que você quer mostrar na
 
 O alt não é obrigatório mas é altamente recomendado por melhorar a acessibilidade, ele mostra a descrição da imagem caso ela não carregue e leitores de tela usam esse atributo para descrever a imagem para o usuário saber o que ela significa.
 
-** Prática **
+**| Prática |**
 Vamos adicionar uma imagem ao cabeçalho da página e uma imagem a postagem.
 
 Primeiro vamos colocar as imagens na pasta do nosso projeto. Para a imagem do cabeçalho eu escolhi uma foto minha com 100 pixels de largura e 100 pixels de altura e para a imagem da postagem eu procurei por html code no site Unsplash, escolhi uma das imagens e deixei ela com 960 pixels de largura por 322 pixels de altura.
