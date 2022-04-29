@@ -115,7 +115,7 @@ Primeiro vamos colocar as imagens na pasta do nosso projeto. Para a imagem do ca
 
 Dentro do primeiro < header > da página e antes do < h1 > iremos adicionar um elemento img e no atributo src colocamos o caminho para a nossa foto, /lucas-vilaboim.jpg, e o atributo alt deve conter um significado para a imagem, como no meu caso é uma ilustração, colocarei Ilustração do rosto de Lucas Vilaboim.
 
-E dentro do <header> do < article > vamos fazer a mesma coisa, mas agora depois do <h3>, e no atributo alt colocaremos Editor de texto mostrando códigos HTML.
+E dentro do  < header >  do  < article >  vamos fazer a mesma coisa, mas agora depois do <h3>, e no atributo alt colocaremos Editor de texto mostrando códigos HTML.
 
 **| Listas |**
 Os últimos elementos que veremos neste módulo são os relacionados a listas: < ul >, < ol >  e  < li >.
